@@ -29,9 +29,9 @@ Manual sample entry  /  Load sample list from text file  /  Compute: Mean, RMS, 
 ASCII bar graph plot (negative left, positive right)  /  Save computed statistics to a file
 
 Files used:
-samples.txt — user-provided sample input
-samples_auto.txt — auto-generated for testing
-signal_stats.txt — saved analysis results
++ samples.txt — user-provided sample input
++ samples_auto.txt — auto-generated for testing
++ signal_stats.txt — saved analysis results
 
 2. ADC / Sensor Converter
 Convenience utilities for embedded sensor systems.
