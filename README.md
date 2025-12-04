@@ -1,75 +1,146 @@
-# Engineering Toolkit — ELEC2645 Unit 2 Project
+<h1><span style="color:#F5B7B1;"> Engineering Toolkit — ELEC2645 Unit 2 Project</span></h1>
+
 Developer: Qi Chang
+
 Student ID: 201891723
+
 Last updated：04/12/2025
 
-# Read before enjoy "ELEC2635 Toolkit"
+<h1><span style="color:#F5B7B1;">  Read before enjoy "ELEC2635 Toolkit"</span></h1>
 
-# Overview:
-This project is an Engineering Toolkit implemented in C for the ELEC2645 Embedded Systems module.
-It is a menu-driven command-line application that provides a collection of small engineering utilities commonly used in electronics, signal processing, and embedded system work.
+<h2><span style="color:#9B59B6;"> Overview: </span></h2>
 
-The toolkit includes a Signal Analyzer, ADC/Sensor converters, circuit calculators, resistor colour decoders, unit converters, and a Tools module featuring auto-testing and file operations.
+The toolkit features modules commonly used in electronics, signal processing, and embedded system work:
+
+<table>
+  <tr>
+    <td>Signal Analyzer</td>
+    <td>ADC / Sensor Converter</td>
+  </tr>
+  <tr>
+    <td>Circuit Calculator</td>
+    <td>Resistor Colour Decoder</td>
+  </tr>
+  <tr>
+    <td>Unit Converter</td>
+    <td>Tools (Auto-test & file utilities)</td>
+  </tr>
+</table>
 
 The project emphasises:
-+ Clean modular design
-+ Robust user input validation
-+ Clear menu-driven workflow
-+ File I/O, numerical computation, and ASCII display techniques
 
-# How to run "ELEC2645 Toolkit":
+✔️ Clean modular design
+
+✔️ Strong input validation
+
+✔️ Clear menu navigation
+
+✔️ File I/O, numerical computation, ASCII graphing
+
+<h2><span style="color:#9B59B6;"> How to run "ELEC2645 Toolkit"</span></h2>
+
 Compile using GCC: "gcc main.c funcs.c -o elec_toolkit -lm"
-Run the program by type in: "./elec_toolkit"
 
-# Features:
-1. Signal Analyzer
-Provides simple digital signal analysis functions.
-Functions:
-Manual sample entry  /  Load sample list from text file  /  Compute: Mean, RMS, Min or Max
-ASCII bar graph plot (negative left, positive right)  /  Save computed statistics to a file
+Run the program by typing in: "./elec_toolkit"
+
+<h2><span style="color:#9B59B6;">  Features </span></h2>
+
+<h3><span style="color:#FF8C00;">1. Signal Analyzer</span></h3>
+
+Digital signal analysis module providing:
+
+Manual sample input
+
+Load samples from file
+
+Compute: Mean / RMS / Min / Max
+
+ASCII bar-graph plot (negative left, positive right)
+
+Save computed statistics to file
 
 Files used:
 + samples.txt — user-provided sample input
 + samples_auto.txt — auto-generated for testing
 + signal_stats.txt — saved analysis results
 
-2. ADC / Sensor Converter
-Convenience utilities for embedded sensor systems.
-Conversions: 
-ADC (0–1023) → Voltage / Voltage → Temperature (LM35: 10 mV/°C) / ADC → Temperature
-A simple reference voltage (5 V by default, could be changed) is used for scaling.
+<h3><span style="color:#FF8C00;">2. ADC / Sensor Converter</span></h3>
 
-3. Circuit Calculator
-A collection of common circuit-related formulas.
+Convenient conversions used in embedded systems:
+
+ADC (0–1023) → Voltage
+
+Voltage → Temperature (LM35: 10 mV/°C)
+
+ADC → Temperature
+Uses adjustable reference voltage (default: 5.0 V, could be changed).
+
+
+
+<h3><span style="color:#FF8C00;">3. Circuit Calculator</span></h3>
+
 Includes:
-RC low-pass filter cutoff frequency / Voltage divider / LED current-limit resistor / 
-Ohm’s law / Capacitor charging equation: V(t) = Vs (1 - e^(-t/RC))
 
-4. Resistor Colour Decoder
-Supports both 4-band and 5-band resistors.
-Output: Nominal resistance / Automatic unit scaling (Ω, kΩ, MΩ) / Tolerance
-Supports all IEC standard colours.
+RC low-pass cutoff frequency Calculator
 
-5. Unit Converter
-General engineering unit conversions: 
-dBm ↔ mW / Hz ↔ rad/s / °C ↔ K / °F ↔ °C / V ↔ dBV
+Voltage divider Calculator
 
-6. Engineering Calculator
-It includes humorous developer comments as an Easter egg.
+LED current-limit resistor Calculator
 
-7. Tools (Auto Tests & File Operations)
-Designed to demonstrate automation and file handling.
-Functions:
-Generate a sample auto-test file
-Run automated pipeline: Load file -> Calculate statistics -> Draw ASCII plot -> Save results to "signal_stats.txt"
+Ohm’s Law Calculator
 
-# Notes & Acknowledgements
+Capacitor charging Calculator:  V(t) = Vs (1 - e^(-t/RC))
+
+<h3><span style="color:#FF8C00;">4. Resistor Colour Decoder</span></h3>
+
+Supports both 4-band and 5-band IEC resistor colour codes:
+
+Automatic digit & multiplier decoding
+
+Outputs resistance in Ω, kΩ, or MΩ
+
+Displays tolerance percentage
+
+Some logic adapted from online educational resources.
+
+<h3><span style="color:#FF8C00;">5. Unit Converter</span></h3>
+
+General engineering conversions:
+
+dBm ↔ mW
+
+Hz ↔ rad/s
+
+°C ↔ K
+
+°F ↔ °C
+
+V ↔ dBV
+
+<h3><span style="color:#FF8C00;">6. Engineering Calculator (Easter Egg)</span></h3>
+
+This module contains humorous developer messages instead of real calculations — included for entertainment and as an Easter egg.
+
+<h3><span style="color:#FF8C00;">7. Tools (Auto Tests & File Operations)</span></h3>
+
+Designed to demonstrate automation and file handling:
+
+Generate a sample file
+
+Auto-test pipeline:
+Load file → Calculate statistics → Draw ASCII graph → Save to signal_stats.txt
+
+<h2><span style="color:#9B59B6;"> Notes & Acknowledgements </span></h2>
+
 Some resistor colour-code logic was inspired by educational videos on YouTube.
-The ASCII bar graph plot implementation was also learned and adapted after studying multiple online examples and tutorials.
-All core implementation, menu structure, designs and extensions were written by:
-Qi Chang (201891723)
-Last updated：04/12/2025
 
+The ASCII bar graph plot implementation was also learned and adapted after studying multiple online examples and tutorials.
+
+All core implementation, menu structure, designs and extensions were written by:
+
+Qi Chang (201891723)
+
+Last updated：04/12/2025
 
 
 
