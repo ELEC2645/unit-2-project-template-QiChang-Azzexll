@@ -39,9 +39,9 @@ The project emphasises:
 
 <h2><span style="color:#9B59B6;"> How to run "ELEC2645 Toolkit"</span></h2>
 
-Compile using GCC: "gcc main.c funcs.c -o elec_toolkit -lm"
+Compile using GCC: "<span style="color:#4FA3FF;">gcc main.c funcs.c -o elec_toolkit -lm</span>"
 
-Run the program by typing in: "./elec_toolkit"
+Run the program by typing in: "<span style="color:#20D27D;">./elec_toolkit</span>"
 
 <h2><span style="color:#9B59B6;">  Features </span></h2>
 
