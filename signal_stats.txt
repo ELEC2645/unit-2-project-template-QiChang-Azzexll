@@ -1,6 +1,5 @@
-Signal statistics
-Count = 2
-Min   = 1.000000
-Max   = 2.000000
-Mean  = 1.500000
-RMS   = 1.581139
+Count: 5
+Min: 1.000000
+Max: 5.000000
+Mean: 3.000000
+RMS: 3.316625

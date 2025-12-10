@@ -1083,7 +1083,7 @@ void menu_engineering_calculator(void)
  *                                                                         *
  *   Please enjoy other fully implemented modules while waiting :)         *
  *                                                                         *
- *     /\_/\     Oh my god meow! you found me!               *
+ *     /\_/\     Oh my god meow! you found me!                             *
  *    ( o.o )    It's the companion we shipped pre-DLC.                    *
  *     > ^ <     And littele kitten believes in your math skills.          * 
  *                                                                         *
