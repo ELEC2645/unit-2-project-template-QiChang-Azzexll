@@ -362,7 +362,7 @@ void sa_plot_graph(void)
         int right_bar = 0;
 
         if (x < 0) {
-            left_bar = (int)((fabs(x) / max_abs) * MAX_BAR + 0.5);   /* 四舍五入 */
+            left_bar = (int)((fabs(x) / max_abs) * MAX_BAR + 0.5);   /* rounding */
             if (left_bar > MAX_BAR) left_bar = MAX_BAR;
         } else if (x > 0) {
             right_bar = (int)((x / max_abs) * MAX_BAR + 0.5);
