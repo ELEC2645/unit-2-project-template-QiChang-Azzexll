@@ -1068,10 +1068,12 @@ void menu_engineering_calculator(void)
     printf("For general arithmetic and scientific functions,\n");
     printf("please use a normal calculator.\n");
     printf("This project focuses on signal and circuit tools.\n");
+    printf("\nTip: An Easter egg is hidden inside funcs.c.\n");
+    printf("A tiny cat is waiting for you to discover it. Go Say Hi!\n");
 }
 /* ======================================================================= *
  *   This feature has been delayed......again.                             *
- *   Release date: TBD (just like GTA 6 before 2025).                      *
+ *   Release date: TBD (just like GTA 6 before 2026).                      *
  *                                                                         *
  *              ▄██████▄      ╔═╗┬ ┬┌─┐┬┌─                                 *
  *             ███    ███     ║═╬└┬┘├─┤├┴┐  (Coming Soon™)                 *   
@@ -1081,7 +1083,7 @@ void menu_engineering_calculator(void)
  *                                                                         *
  *   Please enjoy other fully implemented modules while waiting :)         *
  *                                                                         *
- *     /\_/\     Oh my, there's a lovely little kitten here.               *
+ *     /\_/\     Oh my god meow! you found me!               *
  *    ( o.o )    It's the companion we shipped pre-DLC.                    *
  *     > ^ <     And littele kitten believes in your math skills.          * 
  *                                                                         *
